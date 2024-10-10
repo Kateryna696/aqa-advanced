@@ -1,0 +1,17 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "homework for lesson3",
+  "main": "nodeBasics/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kateryna Kustova",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.3.0"
+  },
+  
+    "type": "module"
+  
+}
