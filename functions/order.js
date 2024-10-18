@@ -1,3 +1,5 @@
+import {area} from "./area.js"
+
 function checkOrder(available, ordered) {
     if (ordered === 0) {
         console.log("Your order is empty");
@@ -12,3 +14,4 @@ function checkOrder(available, ordered) {
 checkOrder(1,0);
 checkOrder(1,1);
 checkOrder(1,8);
+area(2,2);

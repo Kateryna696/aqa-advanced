@@ -1,4 +1,4 @@
-function area(width,height){
+export function area(width,height){
     return console.log('The area is: ' + width*height);
 }
 area(5,10);
