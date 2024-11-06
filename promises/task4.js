@@ -13,7 +13,6 @@ class TodoService {
     }
 }
 
-
 class UserService {
     async fetchUser() {
         try {
