@@ -1,5 +1,5 @@
-const numbersList = [1,10,14,2,4,5,43,34];
-const copiedArray = Array.from(numbersList);
-copiedArray.sort((a,b)=>a-b);
+const numbersList = [1, 0, 2, 4, 5, 3];
+//const copiedArray = Array.from(numbersList);
+numbersList.sort();
 console.log(numbersList);
-console.log(copiedArray);
+//console.log(copiedArray);
