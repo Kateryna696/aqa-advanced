@@ -1,28 +1,37 @@
 {
-	"name": "lesson3",
-	"version": "1.0.0",
-	"description": "homework for lesson3",
-	"main": "nodeBasics/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"prepare": "husky install"
-	},
-	"lint-staged": {
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "homework for lesson3",
+  "main": "nodeBasics/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
     "*.{js,ts,jsx,tsx}": "eslint --fix"
   },
-	"author": "Kateryna Kustova",
-	"license": "ISC",
-	"devDependencies": {
-		"@eslint/js": "^9.14.0",
-		"chalk": "^5.3.0",
-		"eslint": "^9.14.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-prettier": "^5.2.1",
-		"eslint-plugin-react": "^7.37.2",
-		"globals": "^15.12.0",
-		"husky": "^9.1.6",
-		"lint-staged": "^15.2.10",
-		"prettier": "^3.3.3"
-	},
-	"type": "module"
+  "author": "Kateryna Kustova",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@eslint/js": "^9.14.0",
+    "babel-jest": "^29.7.0",
+    "chalk": "^5.3.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "esm": "^3.2.25",
+    "globals": "^15.12.0",
+    "husky": "^9.1.6",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "fs": "^0.0.1-security"
+  }
 }
