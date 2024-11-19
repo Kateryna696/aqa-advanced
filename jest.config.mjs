@@ -205,4 +205,7 @@ export default {
   testEnvironment: 'node',
   // добавьте другие настройки, если необходимо
 };
-
+reporters: [
+    "default",
+    "jest-html-reporters"
+  ]
